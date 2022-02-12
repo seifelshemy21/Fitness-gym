@@ -46,7 +46,16 @@ body {
 .sidenav a:hover {
     color: #994848;
 }
-
+.sidenav button{
+    border: none;
+    border-radius: 50px;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 20px;
+}
+.sidenav button:hover{
+    background-color: rgb(169, 224, 214);
+}
 .sidenav .close {
     position: absolute;
     top: 0;
